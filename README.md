@@ -24,6 +24,8 @@ an empty os prototype in development
  python at least 3.13 (of course)
  
  pillow (for background as png support)
+
+ another operating system to make the project open (the app isnt exactly standalone yet)
  
 
  recommended for better use and sound effects like the ringtone:
