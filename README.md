@@ -31,6 +31,13 @@ an empty os prototype in development
  mpv (for the ringtone ) 
  
  nohup (for the ringtone also) 
+
+
+ # RIGHT NOW THE APP CAN:
+ open
+ boot
+ show the correcvt background
+ make you listen to a ringtone made with lmms and windows soundfont 
  
  
  
