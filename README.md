@@ -1,2 +1,31 @@
 # emptyos
-an empty os prototype in developpement
+an empty os prototype in development
+
+
+ # ATTENTION PLEASE
+ this repo is made to share my progress, this source code can be copied. BUT i do not authorize people to get multiple objects said below:
+ 
+ -the ringtone.mp3 file (you can keep it and listen to it, just do not redistribute it)
+ -the background.png image (i created it myself)
+
+ that's all for now.
+
+ this project partially used artificial intelligence to support the learning developer behind it. 
+ (sorry for betraying you guys)
+
+
+ # also 
+ this is not a real os more like a prototype of a potential future app
+
+ needs : 
+ customtkinter (latest possibly)
+ tkinter( of course)
+ python at least 3.13 (of course)
+ pillow (for background as png support)
+ 
+
+ recommended for better use and sound effects like the ringtone:
+ mpv (for the ringtone ) 
+ nohup (for the ringtone also) 
+ 
+ 
