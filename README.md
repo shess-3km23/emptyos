@@ -20,13 +20,19 @@ an empty os prototype in development
 
  needs : 
  customtkinter (latest possibly)
+ 
  tkinter( of course)
+ 
  python at least 3.13 (of course)
+ 
  pillow (for background as png support)
  
 
  recommended for better use and sound effects like the ringtone:
+ 
  mpv (for the ringtone ) 
+ 
  nohup (for the ringtone also) 
+ 
  
  
