@@ -6,6 +6,7 @@ an empty os prototype in development
  this repo is made to share my progress, this source code can be copied. BUT i do not authorize people to get multiple objects said below:
  
  -the ringtone.mp3 file (you can keep it and listen to it, just do not redistribute it)
+ 
  -the background.png image (i created it myself)
 
  that's all for now.
