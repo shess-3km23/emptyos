@@ -1,4 +1,4 @@
-# emptyos
+# emptyos LINUX ONLY EDITION
 an empty os prototype in development
 
 
