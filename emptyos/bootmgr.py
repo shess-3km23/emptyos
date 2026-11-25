@@ -28,18 +28,52 @@ bg_image = ctk.CTkImage(
 bg_label = ctk.CTkLabel(vm, text="", image=bg_image)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 bg_label.lower()
-def idk():
-    print("hollup lemme think what im gonna put here")
+
+menu_panel = ctk.CTkFrame(vm, width=360, height=500)
+menu_panel.place(x=20, y=150)
+menu_panel.lower()
+
+ctk.CTkLabel(
+    menu_panel,
+    text="START MENU",
+    font=ctk.CTkFont(size=20, weight="bold"),
+).pack(padx=20, pady=(20, 12), anchor="w")
+
+ctk.CTkButton(menu_panel, text="Test app").pack(padx=20, pady=8, fill="x")
+ctk.CTkButton(menu_panel, text="Settings").pack(padx=20, pady=8, fill="x")
+
+
+def shutdown():
+    vm.destroy()
+
+
+ctk.CTkButton(
+    menu_panel,
+    text="Shutdown",
+    command=shutdown,
+).pack(padx=20, pady=8, fill="x")
+
+menu_visible = False
+
+
+def toggle_menu():
+    global menu_visible
+    if menu_visible:
+        menu_panel.lower()
+        menu_visible = False
+    else:
+        menu_panel.lift()
+        menu_visible = True
+
 
 btn1 = ctk.CTkButton(
     master=vm,
     text="start.menu",
-    command=idk,
+    command=toggle_menu,
     width=50,
     height=50,
 )
 btn1.place(relx=0, rely=1, anchor="sw", x=20, y=-10)
-btn1.size = (4000, 4000)
 #composed it myself (: so proud 
 def okok():
     print("ringtone time BABY")
